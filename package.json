@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "parcel --target default",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build --target default --dist-dir ./dist"
   },
   "author": " Tano.B",
   "license": "ISC",
