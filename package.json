@@ -7,7 +7,7 @@
   "targets": {
     "main": false,
     "default": {
-      "source": "index.html",
+      "source": "./index.html",
       "distDir": "./dist",
       "sourceMap": {
         "inlineSources": true
