@@ -1,0 +1,34 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "browserslist": "last 2 versions, > 0.5%, ie >= 11",
+  "targets": {
+    "main": false,
+    "default": {
+      "source": "index.html",
+      "distDir": "./dist",
+      "sourceMap": {
+        "inlineSources": true
+      }
+    }
+  },
+  "scripts": {
+    "start": "parcel --target default",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": " Tano.B",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.25.5",
+    "fracty": "^1.0.9",
+    "img": "^3.0.3",
+    "regenerator-runtime": "^0.13.11"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.4.1",
+    "parcel": "^2.4.1",
+    "process": "^0.11.10"
+  }
+}
