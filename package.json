@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "parcel --target default",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "npx -p parcel build index.html --dist-dir ./dist"
   },
   "author": " Tano.B",
   "license": "ISC",
